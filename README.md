@@ -3,6 +3,13 @@
 Este repositorio contiene 4 vistas para analizar datos de la base de datos en Northwind
 He realizado una modificacion a la tabla (orders), donde añadi una nueva columnas JSONB para poder ingresar nuevos datos en cada orden.
 
+Estructur de repositorio 
+northwind/
+│
+├── northwind.sql # Script SQL original de la base de datos Northwind
+├── vistas_northwind_modificadas.sql # Conjunto de vistas SQL analíticas y personalizadas
+└── README.md # Documentación del proyecto (este archivo)
+
 ---
 
 ## 📁 Contenido de Vistas
