@@ -1,7 +1,7 @@
 # 📊 A) Vistas SQL - Análisis Northwind Modificado Jose Malaver
 
 Este repositorio contiene 4 vistas para analizar datos de la base de datos en Northwind
-He realizado una modificacion a la tabla (orders), donde añadi una nueva columnas JSON para poder ingresar nuevos datos en cada orden.
+He realizado una modificacion a la tabla (orders), donde añadi una nueva columnas JSONB para poder ingresar nuevos datos en cada orden.
 
 ---
 
