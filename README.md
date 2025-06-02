@@ -3,12 +3,31 @@
 Este repositorio contiene 4 vistas para analizar datos de la base de datos en Northwind
 He realizado una modificacion a la tabla (orders), donde añadi una nueva columnas JSONB para poder ingresar nuevos datos en cada orden.
 
-Estructur de repositorio 
-northwind/
-│
-├── northwind.sql # Script SQL original de la base de datos Northwind
-├── vistas_northwind_modificadas.sql # Conjunto de vistas SQL analíticas y personalizadas
-└── README.md # Documentación del proyecto (este archivo)
+
+## 📝 Contenido
+
+### 🔹 `northwind.sql`
+Contiene las instrucciones necesarias para crear todas las tablas, relaciones y datos de ejemplo de la clásica base de datos Northwind, utilizada para prácticas de SQL.
+
+### 🔹 `vistas_northwind_modificadas.sql`
+Incluye la creación de múltiples **vistas SQL** diseñadas para análisis de negocio, como por ejemplo:
+- clientes_frecuencia
+- tiempo_envio_promedio
+- empleados_eficiencia
+- productos_no_vendidos
+- Campos JSON para información adicional por pedido (`extra_info`).
+
+## 🛠️ Requisitos
+
+- PostgreSQL 12 o superior (recomendado)
+- PgAdmin o cliente SQL para ejecutar los scripts
+
+## 🚀 Cómo usar
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Josedmas/northwind.git
+   cd northwind
 
 ---
 
