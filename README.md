@@ -82,12 +82,6 @@ UPDATE orders SET extra_info = '{
 }'
 WHERE order_id = 10248;
 
-UPDATE orders SET extra_info = '{
-  "notas": "Entregar entregar en conserjeria",
-  "metodo_pago": "PayPal",
-  "Feedback": {"usuario": "cliente33", "fecha": "2025-06-01" "comentario": "caja abierta"}
-}'
-WHERE order_id = 10263;
  UPDATE orders SET extra_info = '{
   "notas": "Entregar entregar en conserjería",
   "metodo_pago": "cash",
