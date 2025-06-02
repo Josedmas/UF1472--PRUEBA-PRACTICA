@@ -73,6 +73,7 @@ where od.product_id is null;
 Añadir un campo json a tabla order, para este caso sera informacion extra del pedido donde se integrara 'notas al pedido', 'metedo de pago','Feedback'.
 
 **SQL:**
+```sql
 ALTER TABLE orders ADD COLUMN extra_info JSONB;
 UPDATE orders SET extra_info = '{
   "notas": "Entregar después de las 18h",
@@ -97,7 +98,7 @@ WHERE order_id = 10263;
   }
 }'
 WHERE order_id = 10263;
-
+```
 
 ## 🧩 Requisitos
 
