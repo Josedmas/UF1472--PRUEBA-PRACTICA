@@ -112,6 +112,6 @@ WHERE order_id = 10263;
 
 ## 📌 Autor
 
-*Creado por [Jose Malaver], junio 2025*
+*Creado por Jose Malaver, junio 2025*
 
 ---
