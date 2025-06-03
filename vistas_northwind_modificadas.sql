@@ -54,3 +54,62 @@ WHERE order_id = 10248;
   }
 }'
 WHERE order_id = 10263;
+UPDATE orders 
+SET extra_info = '{
+  "notas": "Entregar en recepción",
+  "metodo_pago": "tarjeta",
+  "Feedback": {
+    "usuario": "cliente12",
+    "fecha": "2025-06-01",
+    "comentario": "todo correcto"
+  }
+}'
+WHERE order_id = 10260;
+
+UPDATE orders 
+SET extra_info = '{
+  "notas": "Llamar antes de entregar",
+  "metodo_pago": "efectivo",
+  "Feedback": {
+    "usuario": "cliente45",
+    "fecha": "2025-05-30",
+    "comentario": "demora en el envío"
+  }
+}'
+WHERE order_id = 10261;
+
+UPDATE orders 
+SET extra_info = '{
+  "notas": "Entrega sin contacto",
+  "metodo_pago": "transferencia",
+  "Feedback": {
+    "usuario": "cliente77",
+    "fecha": "2025-06-02",
+    "comentario": "muy buena atención"
+  }
+}'
+WHERE order_id = 10262;
+
+UPDATE orders 
+SET extra_info = '{
+  "notas": "No dejar con portero",
+  "metodo_pago": "paypal",
+  "Feedback": {
+    "usuario": "cliente89",
+    "fecha": "2025-05-28",
+    "comentario": "producto incompleto"
+  }
+}'
+WHERE order_id = 10264;
+
+UPDATE orders 
+SET extra_info = '{
+  "notas": "Dejar en conserjería",
+  "metodo_pago": "cash",
+  "Feedback": {
+    "usuario": "cliente33",
+    "fecha": "2025-06-01",
+    "comentario": "caja abierta"
+  }
+}'
+WHERE order_id = 10265;
