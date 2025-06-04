@@ -59,11 +59,3 @@ Este proyecto contiene un volcado de base de datos del clásico conjunto de dato
 - Análisis por país, ciudad, categoría o fecha.
 - Generación de reportes de inventario y stock crítico.
 
-## 📚 Créditos
-
-- Basado en el clásico conjunto de datos **Northwind**.
-- Adaptado y modificado para PostgreSQL con soporte para datos JSONB y vistas analíticas.
-
-## ✅ Licencia
-
-Este proyecto es de uso educativo y está disponible para pruebas, aprendizaje y demostraciones.
