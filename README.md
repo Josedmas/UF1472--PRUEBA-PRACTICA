@@ -4,10 +4,10 @@
 Este proyecto contiene un volcado de base de datos del clásico conjunto de datos **Northwind**, adaptado para funcionar con **PostgreSQL**. La base de datos está diseñada para representar una empresa de distribución de productos alimenticios y contiene datos sobre clientes, pedidos, empleados, productos, envíos y más.
 ##  Estrutura del repositorio
 
-├── documentacion/
-│   └── README.md             # Documentación donde se exoplican vistas y el uso de JSONB en la tabla `orders`
-├── README.md                 # Archivo raíz de documentación (puede ser copia o resumen)
-├── dump_modificado_northwind.sql  # Script SQL con la base de datos Northwind modificada
+-├── documentacion/
+-│   └── README.md             # Documentación donde se exoplican vistas y el uso de JSONB en la tabla `orders`
+-├── README.md                 # Archivo raíz de documentación (puede ser copia o resumen)
+-├── dump_modificado_northwind.sql  # Script SQL con la base de datos Northwind modificada
 
 ## 🛠 Requisitos
 
