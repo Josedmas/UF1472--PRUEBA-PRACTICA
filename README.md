@@ -62,7 +62,7 @@ Este proyecto contiene un volcado de base de datos del clásico conjunto de dato
 - `vw_ordenes_detalladas`: Pedidos pendientes con información relevante
 - `vw_rangos_precio`, `vw_rango_min_max`: Análisis de precios por categoría
 - `vw_stock_bajo`: Productos con bajo inventario
-- ... y muchas más.
+
 
 ## 📊 Casos de uso típicos
 
