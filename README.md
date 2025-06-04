@@ -6,7 +6,7 @@ Este proyecto contiene un volcado de base de datos del clásico conjunto de dato
 ##  📁 Estrutura del repositorio
 ```
 ├── documentacion/
-│   └── README.md             # Documentación donde se explicación de algunas vistas y el uso de JSONB en la tabla `orders`
+│   └── README.md             # Documentación donde se explicación de algunas vistas y el uso de JSONB en la tabla **orders**
 ├── README.md                 # Archivo raíz de documentación
 ├── dump_modificado_northwind.sql  # Script SQL con la base de datos Northwind modificada
 ```
