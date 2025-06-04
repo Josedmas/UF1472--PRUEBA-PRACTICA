@@ -10,7 +10,11 @@ Este proyecto contiene un volcado de base de datos del clásico conjunto de dato
 
 ## 📥 Instalación
 
-1. Crea una base de datos nueva en PostgreSQL:
+1. Clonar repositorio
+```git clone https://github.com/Josedmas/UF1472--PRUEBA-PRACTICA
+```
+
+2. Crea una base de datos nueva en PostgreSQL:
    ```bash
    createdb northwind
    ```
