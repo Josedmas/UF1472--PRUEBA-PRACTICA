@@ -19,7 +19,8 @@ Este proyecto contiene un volcado de base de datos del clásico conjunto de dato
 
 1. Clonar repositorio
 ```
-   https://github.com/Josedmas/UF1472--PRUEBA-PRACTICA.git
+  git clone https://github.com/Josedmas/UF1472--PRUEBA-PRACTICA.git
+  cd dump_modificado_northwind
 ```
 
 2. Crea una base de datos nueva en PostgreSQL:
