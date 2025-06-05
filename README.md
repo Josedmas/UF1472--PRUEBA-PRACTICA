@@ -24,7 +24,7 @@ Este proyecto contiene un volcado de base de datos del clásico conjunto de dato
 
 2. Crea una base de datos nueva en PostgreSQL:
    ```bash
-   createdb northwind
+   createdb northwind -U tu_usuario_postgre
    ```
 
 2. Importa el archivo SQL:
